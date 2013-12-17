@@ -1,6 +1,6 @@
 box: wercker/default
-   deploy:
-      steps:
-         - lukevivier/gh-pages:
-             token: $token
-             repo: $repo
+deploy:
+  steps:
+      - lukevivier/gh-pages:
+          token: $token
+          repo: $repo
