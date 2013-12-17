@@ -1,5 +1,5 @@
 box: wercker/default
-deploy
+deploy:
   steps:
     - lukevivier/gh-pages@0.2.1
 	
