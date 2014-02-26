@@ -28,16 +28,16 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1 col-lg-3">
-            <h1><img src="./assets/logo.svg" alt="children of Ur" class="img-responsive center-block" width="300" style="text-align: center;"></h1>
+            <h1><a href="http://childrenofur.com"><img src="./assets/logo.png" alt="children of Ur" class="img-responsive center-block" width="400" style="text-align: center;"></a></h1>
           </div>
           <div class="hidden-xs col-md-8 col-sm-8 col-lg-7 navbar">
           <nav class="list-inline"  >            
             <ul class="nav nav-justified" style="text-align:left">
-              <li><a href="./">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="./features/">Features</a></li>
-              <li><a href="./blog/">Blog</a></li>
-              <li><a href="./help/">Help</a></li>
+              <li><a href="http://childrenofur.com">Home</a></li>
+              <li><a href="http://childrenofur.com/about.html">About</a></li>
+              <li><a href="http://childrenofur.com/features.html">Features</a></li>
+              <li><a href="http://childrenofur.com/blog">Blog</a></li>
+              <li><a href="http://childrenofur.com/help.html">Help</a></li>
             </ul>
           </nav>
         </div>
@@ -46,20 +46,20 @@
     </div>
   <div class="container">
     <div class="row">
-        <div class="visible-xs col-xs-12">
-          <a href="/coUclient/game/" class="btn green big center-block" style="margin-top:12px">Play</a>
+        <div class="visible-xs col-xs-12" style="margin-top:24px">
+          <a href="http://childrenofur.github.io/coUclient/game.html" class="btn green big center-block">Play</a>
         </div>
-        <div class="visible-xs btn-group btn-group-lg btn-group-vertical" style="margin:82px 15px 12px">
-            <a href="/" class="btn btn-default">Home</a>
-            <a href="/about" class="btn btn-default">About</a>
-            <a href="/features" class="btn btn-default">Features</a>
-            <a href="/blog" class="btn btn-default">Blog</a>
-            <a href="/help" class="btn btn-default">Help</a>
+        <div class="col-xs-12 visible-xs btn-group btn-group-lg btn-group-vertical" style="margin-bottom:20px">
+            <a href="http://childrenofur.com" class="btn btn-default">Home</a>
+            <a href="http://childrenofur.com/about.html" class="btn btn-default">About</a>
+            <a href="http://childrenofur.com/features.html" class="btn btn-default">Features</a>
+            <a href="http://childrenofur.com/blog" class="btn btn-default">Blog</a>
+            <a href="http://childrenofur.com/help.html" class="btn btn-default">Help</a>
         </div>
       <div class="col-md-3 col-md-offset-1 col-lg-3">
           <div class="row">
             <div class="col-md-12 hidden-xs">
-              <a href="/coUclient/game/" class="btn green big center-block" style="margin-top:24px">Play</a>
+              <a href="http://childrenofur.github.io/coUclient/game.html" class="btn green big center-block" style="margin-top:24px">Play</a>
             </div>
             <div class="col-md-12 visible-md visible-lg">
               <h3>Follow us!</h3>
@@ -78,26 +78,44 @@
             </div>
           </div>
           <div class="col-xs-12 col-md-8 col-md-8 col-lg-7">
-            <h2>Features</h2>
+            <h2>Current Features</h2>
+            <p>The game is currently in <strong>Pre-Alpha</strong>, which means there's still a lot of bugs
+               and features that haven't yet made it into the game. If you want to report a bug or request
+               a new feature, head on over to our <a href="https://github.com/ChildrenOfUr/coUclient/issues?state=open">
+               GitHub page</a>, and open a new issue.
             <h3>v0.1</h3>
             <ul>
-              <li>Website with information on game, features, and help.</li>
-              <li>Development blog</li>
-              <li>Game with the following features:</li>
+              <li>Temporary avatar with animations</li>
+              <li>Avatar walks, talks, and jumps</li>
+              <li>Support for multiplayer and in-game chat</li>
+              <li>Basic user interface with mobile capabilities
+                <ul>
+                  <li>Date and time of game world</li>
+                  <li>Metabolics: Mood, Health, Energy, iMG, Currants</li>
+                  <li>Inventory (not currently usable)</li>
+                  <li>Button for switching between desktop/mobile view</li>
+                  <li>Chat panes: Global, Local, and Other</li>
+                  <li>Settings buttons: Console, Bug Reports, Community, Volume, Fullscreen</li>
+                  <li>Current location and Map (map not currently usable)</li>
+                  <li>List and links to neighboring streets</li>                  
+                </ul>
+              <li>Console commands for debugging and testing</li>
+              <li>Approximately 95% of original streets available for exploration</li>
+              <li>Integration of SoundCloud; temporary music plays in-game
             </ul>
-            <!--  
-            <h3>Console Commands</h3>
-              <p>Consider this your ticket to game-changing nirvana. This tool would
-              normally be reserved for developers, but sometimes you just want to cheat
-              your way through the game. To use the commands below, click on the <span class="icon-rocket"></span> in the 
-              upper right, type in the command, and press 'Enter'.</p>
-              <kbd>setlocation tsid_of_location</kbd>
-              <p>This instantly teleports you to the street of your choice. First, find a street you want to travel to. Second, copy the 15-character code in the ___.
-              Ex. To teleport to Groddle Forest Junction, enter the command <code>setlocation LLI3272LOTD1B1F</code>.</p>
-              -->
+            
+            <h2>Known Issues</h2>
+            <h3>Last updated 2014-02-25</h3>
+            <ul>
+              <li>Background images not displaying in some fullscreen browsers</li>
+              <li>Sound does not play on mobile browsers</li>
+              <li>Some graphical errors (mostly in the UI) when using older versions of Internet Explorer</li>
+              <li>Some streets (rare) do not have all art assets available and will not load</li>
+              <li>Minor animation errors with avatar</li>
+            </ul>
+             
+
           </div>
-          
-      
       </div>
     </div>
     <div id="footer">
