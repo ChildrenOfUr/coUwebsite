@@ -1,5 +1,0 @@
-Redirect /index.html/ http://childrenofur.com
-Redirect /index.html http://childrenofur.com
-Redirect / http://childrenofur.com
-
-Options +FollowSymLinks -MultiViews
